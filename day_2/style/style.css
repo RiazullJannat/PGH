@@ -1,0 +1,20 @@
+h3{
+    color:green;
+    text-decoration: overline;
+    font-family:'Courier New', Courier, monospace
+}
+
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.shadow{
+    margin: 15px;
+    border: 10px solid maroon;
+    padding: 5px;
+    box-shadow: 10px 10px 10px darkslategray;
+
+}
+.cl{
+    border: 3px solid blue;
+}

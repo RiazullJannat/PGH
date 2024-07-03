@@ -1,0 +1,37 @@
+.paraback{
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    color: green;
+    background-color: black;
+    justify-content: center;
+    background-image: url("");
+    border: 40px solid black;
+    border-radius: 20px;
+}
+.div{
+    background-color: rgba(255, 203, 80, 0.996);
+    border: 20px solid rgba(255, 203, 80, 0.996);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.hed{
+    height: 700px;
+    width: 1000px;
+    background-image: url("dev2.png");
+    margin: 0px 200px;
+    
+
+}
+.firstdiv{
+    color: black;
+    background-color: #edcd2d;
+    border: 20px solid #edcd2d;
+    border-radius: 10px;
+    width: 1000px;
+    box-shadow: 20px 10px 20px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}

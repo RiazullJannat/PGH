@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+    <style>
+        .B{
+            font-size: large;
+        }
+        *{
+            margin-left: 1%;
+        }
+        .class1{
+        background-color:yellowgreen
+    }
+    .ggg, .class45{
+        color:darkred;
+    }
+    input[type="password"]{
+        color: blueviolet;
+    }
+    .acua{
+        color:greenyellow;
+        background-color: black ;
+    }
+    </style>
+    <!-- / for comment inside style tag-->
+</head>
+<body>
+    <h3 style="font-style: italic;">Mixed Selectors</h3>
+    <div class="class1">
+        <p>This is line one.</p>
+        <p>This is line two.</p>
+        <p>This is line three.</p>
+        <p class="class45 B">This is line four.</p>
+        <p class="class45 B">This is line five.</p>
+        <p>This is line six.</p>
+        <p>This is line seven.</p>
+        <p>This is line eight.</p>
+        <p>This is line nine.</p>
+        <p>This is line ten.</p>
+
+    </div>
+    <p class="ggg">Inter <span class="acua">your info</span>:</p>
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>

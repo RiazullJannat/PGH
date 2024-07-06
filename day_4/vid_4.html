@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 01px solid black;
+            padding:10px 5px
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Video</a></li>
+                <li><a href="vid2.html">Blog</a></li>
+                <li><a href="vid_3.html">From</a></li>
+                <li>
+                    <a href="vid_4.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Video</a></li>
+                        <li><a href="vid2.html">Blog</a></li>
+                        <li><a href="vid_3.html">From</a></li>
+                        <li><a href="vid_4.html">Table</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <caption>Employee company and salary table.</caption>
+            <thead>
+                <tr>
+                    <th>NO.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Steve JObs</td>
+                    <td>microsoft</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>mark jaku</td>
+                    <td>facebook</td>
+                    <td>500</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total employee</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    
+</body>
+</html>

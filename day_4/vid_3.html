@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display:block;
+            margin: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Video</a></li>
+                <li><a href="vid2.html">Blog</a></li>
+                <li><a href="vid_3.html">From</a></li>
+                <li>
+                    <a href="vid_4.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Video</a></li>
+                        <li><a href="vid2.html">Blog</a></li>
+                        <li>
+                            <a href="vid_3.html">From</a>
+                            <ul class="dropdown">
+                                <li><a href="index.html">Video</a></li>
+                                <li><a href="vid2.html">Blog</a></li>
+                                <li><a href="vid_3.html">From</a></li>
+                                <li><a href="vid_4.html">Table</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="vid_4.html">Table</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <label for="name">Name: <input type="text" id="name" placeholder="Enter your name.">
+                </label>
+                
+                <label for="email">Email: <input type="email" id="email" placeholder="Enter your email."></label>
+                <label for="phone">Phone: <input type="text" id="phone" placeholder="Enter your phone number."></label>
+                <fieldset>
+                    <legend>pick one pitha.</legend>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="Vapa">Vapa 
+                    </label>
+                    <label for="golla">
+                        <input type="radio" name="pitha" id="golla"> Golla
+                    </label>
+                    <label for="molla">
+                        <input type="radio" name="pitha" id="molla"> Molla
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick any vorta. </legend>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki">Sutki
+                    </label>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha">Sorisha
+                    </label>
+                    <label for="morich">
+                        <input type="checkbox" name="vorta" id="morich">Morich
+                    </label>
+                    
+                   
+
+                </fieldset>
+                <label for="reset">
+                    <input type="reset" name="" id="reset">
+                    <input type="submit" name="" id="submit">
+                </label>
+               
+                
+            </form>
+        </section>
+    </main>    
+    <footer>
+
+    </footer>
+</body>
+</html>

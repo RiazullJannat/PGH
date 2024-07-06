@@ -1,0 +1,23 @@
+body{
+    color: green;
+    background-image: url("backpic.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+}
+.searchbar{
+    border: 2px solid green;
+    background-color: transparent;
+    color:yellowgreen
+    
+
+}
+.img{
+    padding-top: 30px;
+}
+label{
+   display:flex;
+    padding-top: 10px;
+}
